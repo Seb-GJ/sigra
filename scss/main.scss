@@ -1,6 +1,46 @@
 @use 'colors' as *;
 
 .navbar{
-    padding: 30px 150px;
-   background-color: $white;
+    padding: 30px 100px;
+    background-color: $oxford-blue;
+
+    .navbar-brand{
+        font-size: 33px;
+    }
+
+    .collapse{
+
+        padding-top: 12px;
+    }
+
+    form{
+
+        button{
+            border-color: $white !important;
+            color: $white;
+        }
+
+        .btn-Li{
+            margin-right: 10px;
+        }
+
+        .btn:hover{
+            background-color: $gainsboro;
+        }
+    }
+
+}
+
+main{
+    margin-top: 119px;
+
+    .services{
+
+        video{
+            width: 100%;
+            position: relative;
+        }
+
+    }
+
 }

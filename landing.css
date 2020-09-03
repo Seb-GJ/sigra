@@ -1,6 +1,30 @@
 .navbar {
-  padding: 30px 150px;
-  background-color: #ffff;
+  padding: 30px 100px;
+  background-color: #0D123C;
+}
+.navbar .navbar-brand {
+  font-size: 33px;
+}
+.navbar .collapse {
+  padding-top: 12px;
+}
+.navbar form button {
+  border-color: #ffff !important;
+  color: #ffff;
+}
+.navbar form .btn-Li {
+  margin-right: 10px;
+}
+.navbar form .btn:hover {
+  background-color: #E0E0E0;
+}
+
+main {
+  margin-top: 119px;
+}
+main .services video {
+  width: 100%;
+  position: relative;
 }
 
 /*# sourceMappingURL=landing.css.map */
