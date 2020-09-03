@@ -37,18 +37,28 @@ main{
     .services{
 
         height: 100%;
-        width: 100%;
+        width: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         
         video{
 
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            object-fit: cover;
             width: 100%;
-            position: fixed;
+            height: 100%;
+            pointer-events: none;
             
         }
 
         .services-container{
             position: relative;
-            top: 50px;
             max-width: 1200px;
             margin: 50px auto;
             display: flex;
