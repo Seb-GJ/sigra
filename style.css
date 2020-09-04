@@ -34,10 +34,10 @@ img{
 }
 
 .figure-container:hover figure{
-    -webkit-transform:perspective(600px) rotateY(180deg) ;
-    -ms-transform:perspective(600px) rotateY(180deg) ;
-    -o-transform:perspective(600px) rotateY(180deg) ;
-    transform:perspective(600px) rotateY(180deg) ;
+    -webkit-transform:perspective(600px) rotateY(179deg) ;
+    -ms-transform:perspective(600px) rotateY(179deg) ;
+    -o-transform:perspective(600px) rotateY(179eg) ;
+    transform:perspective(600px) rotateY(179deg) ;
 
     -webkit-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
     -moz-box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.25);
@@ -45,9 +45,7 @@ img{
 
 }   
  
-.figure-container:hover figure img{
-    filter: blur(2px);
-} 
+
 
 figure{
     width: 300px;
