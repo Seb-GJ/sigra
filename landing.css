@@ -22,9 +22,22 @@
 main {
   margin-top: 119px;
 }
+main .services {
+  text-align: center;
+}
+main .services .services-video {
+  width: 100%;
+}
 main .services video {
   position: fixed;
   z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+main .services .figure-container {
+  margin-top: 7%;
 }
 
 /*# sourceMappingURL=landing.css.map */
