@@ -19,17 +19,16 @@
   background-color: #E0E0E0;
 }
 
-main {
-  margin-top: 119px;
-}
 main .services {
   text-align: center;
+  position: relative;
+  padding-top: 170px;
 }
 main .services .services-video {
   width: 100%;
 }
 main .services video {
-  position: fixed;
+  position: absolute;
   z-index: -1;
   top: 0;
   bottom: 0;
@@ -38,6 +37,9 @@ main .services video {
 }
 main .services .figure-container {
   margin-top: 7%;
+}
+main .information {
+  background-color: black;
 }
 
 /*# sourceMappingURL=landing.css.map */

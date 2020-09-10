@@ -117,4 +117,8 @@ figure .trasera hr{
        transform: perspective(600px) rotateY(0deg);   
    }
 
+   .services video{
+       display: none;
+   }
+
 }
