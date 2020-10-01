@@ -90,7 +90,40 @@ main .services .figure-container {
   margin-top: 5%;
 }
 main .information {
-  background-color: black;
+  text-align: center;
+}
+main .information h1 {
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  color: #999;
+  font-size: 3rem;
+}
+
+@media (max-width: 992px) {
+  .navbar .navbar-brand {
+    font-size: 27px;
+  }
+
+  .services {
+    width: 375px;
+  }
+  .services .services-container {
+    max-width: 375px;
+    margin: 10px auto;
+  }
+  .services .figure-container figure {
+    width: 200px;
+    height: 250px;
+  }
+  .services .h1, .services h1 {
+    font-size: 1.8rem;
+  }
+  .services .services-container figure .trasera {
+    backface-visibility: visible;
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .services .figure-container:hover figure {
+    transform: perspective(600px) rotateY(0deg);
+  }
 }
 
 /*# sourceMappingURL=landing.css.map */
