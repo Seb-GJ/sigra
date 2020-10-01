@@ -132,17 +132,3 @@ figure .trasera hr{
     opacity: .5;
 }
  
- @media(max-width: 992px){
-    .services-container figure .trasera{
-       backface-visibility: visible;
-       transform: perspective(600px) rotateY(0deg);
-
-   }
-
-   .figure-container:hover figure{
-       transform: perspective(600px) rotateY(0deg);   
-   }
-
-  
-
-}
