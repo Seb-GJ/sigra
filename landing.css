@@ -60,6 +60,12 @@
   background-color: #E0E0E0;
 }
 
+main h1 {
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  color: #999;
+  font-size: 3rem;
+  text-align: center;
+}
 main .services {
   color: #999;
   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
@@ -89,13 +95,10 @@ main .services::before {
 main .services .figure-container {
   margin-top: 5%;
 }
-main .information {
-  text-align: center;
-}
-main .information h1 {
-  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
-  color: #999;
-  font-size: 3rem;
+main .mision {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
 }
 
 @media (max-width: 992px) {
